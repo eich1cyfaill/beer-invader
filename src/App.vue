@@ -265,7 +265,7 @@ html, body
 
 @media screen and (max-width: 425px)
   .container
-    width: 425px
+    width: 100vw
     margin: 0 auto
   .profile
     &__info
@@ -284,7 +284,7 @@ html, body
           width: 60%
       &_title
         background: $red
-        padding: 10px 115px
+        padding: 10px 155px
         color: white
         text-align: center
 </style>
