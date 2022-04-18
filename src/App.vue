@@ -287,4 +287,16 @@ html, body
         padding: 10px 155px
         color: white
         text-align: center
+
+@media screen and (max-width: 320px)
+  .profile
+    &__info
+      button
+        font-size: 15px
+    &__beer
+      &_info
+        font-size: 23px
+        padding: 0 25px
+      button
+        font-size: 15px
 </style>
